@@ -1,0 +1,245 @@
+*{
+    font-family:"Comic Sans MS" ;
+    padding:0px;
+    margin: 0;
+}
+nav{
+    display:flex;
+    height:10vh;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+}
+.icon1{
+    display: flex;
+    
+}
+.icon1 a{
+    text-align: center;
+    align-items: center;
+     color: rgb(46, 46, 214);
+     
+     margin-left: 15px;
+     font-size: 30px;
+     justify-content: center;
+}
+.icon1 h1{
+    font-size: 30px;
+    letter-spacing: 4px;
+
+}
+.icon1 h1 span{
+    text-transform: uppercase;
+}
+nav li{
+    
+    list-style-type: none;
+    
+    margin-left: 40px;
+
+}
+nav a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    
+}
+nav a:hover{
+    border-bottom:  rgb(63, 63, 221) solid 3px;
+    transition:  0.3s;
+    transition-timing-function: ease-out 0.2s;
+}
+nav ol{
+    display: flex;
+    margin-left: 400px;
+}
+.landsection1{
+    height:100vh;
+    width: 100%;
+    
+    
+}
+.herotext{
+    display:absolute;
+    justify-content: center;
+    text-align: center;
+    margin-top: -500px;
+    font-size: 30px;
+    color: white;
+}
+.herotext h6{
+    
+    justify-content: center;
+}
+a .bn53{
+   margin-left: 620px;
+   margin-top: 40px;
+}
+.bn53 {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    color: rgb(63, 63, 221);
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: bn53bounce 4s infinite;
+    cursor: pointer;
+    
+    justify-content: center;
+
+    
+
+  }
+  
+  @keyframes bn53bounce {
+    5%,
+    50% {
+      transform: scale(1);
+    }
+  
+    10% {
+      transform: scale(1);
+    }
+  
+    15% {
+      transform: scale(1);
+    }
+  
+    20% {
+      transform: scale(1) rotate(-5deg);
+    }
+  
+    25% {
+      transform: scale(1) rotate(5deg);
+    }
+  
+    30% {
+      transform: scale(1) rotate(-3deg);
+    }
+  
+    35% {
+      transform: scale(1) rotate(2deg);
+    }
+  
+    40% {
+      transform: scale(1) rotate(0);
+    }
+  }
+  
+  .sec2{
+    height: 120vh;
+    background-color: white;
+    width: 100%;
+   
+
+  }
+  .sec2 h1{
+    margin-top: 30px;
+    text-align: center;
+    
+  }
+  .frame1{
+    width: 350px;
+    height: 320px;
+    background-color: white;
+    margin-left: 40px;
+    border-bottom-left-radius:   20px;
+    border-bottom-right-radius: 20px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+
+  }
+  .frame1 img{
+    padding: 0px 0px 50px 0px;
+    
+  }
+  .coverforframes{
+    padding-top: 90px;
+    display: flex;
+    margin-left:200px;
+
+  }
+  .coverforframes2{
+    padding-top: 90px;
+    display: flex;
+    margin-left:200px;
+  }
+  .btn2{
+    padding:10px  5px 10px 5px;
+    background-color: gray;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 40px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    font-family: "Vivaldi";
+    margin-left: 570px;
+    border-radius: 15px;
+    border:none;
+  }
+  .btn2:hover{
+    background-color: wheat;
+    color:blue;
+    transition: 0.2s;
+  }
+  footer{
+    bottom:0;
+    background-color:black;
+    height: 25vh;
+  }
+  .coverforfooter a{
+    
+    color: red;
+    font-size: 20px;
+    margin-left: 10px;
+   
+  }
+  .coverforfooter{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  padding-top: 40px;
+  }
+  .coverforfooter i:hover{
+    color: white;
+    transition: 0.2s;
+    
+  }.textfooter{
+    text-align: center;
+    align-items: center;
+  }
+  .textfooter p{
+    color: gray;
+    font-size: 12px;
+  }
+  .connectlink ol{
+    display: flex;
+    
+  
+  }
+  .connectlink {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 580px;
+    padding-top: 10px;
+}
+  .connectlink a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: gray;
+  }
+  .connectlink a:hover{
+color: white;
+  }
